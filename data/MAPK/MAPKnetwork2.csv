@@ -1,0 +1,8 @@
+1,Ras-GDP,Ras-GTP,,ErkPP
+2,Ras-GTP,Ras-GDP
+3,Raf,RafP,Ras-GTP,ErkPP
+4,RafP,Raf
+5,Mek,MekPP,RafP,ErkPP
+6,MekPP,Mek
+7,Erk,ErkPP,MekPP
+8,ErkPP,Erk

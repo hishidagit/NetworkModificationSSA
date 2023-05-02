@@ -1,0 +1,102 @@
+1,PEP,Pyruvate
+2,Pyruvate,AcCoA
+3,Acetate,Diphosphate AcCoA
+4,OxaloSuc,2-Oxo
+5,2-Oxo,OxaloSuc
+6,Malate,Oxa
+7,Oxa,Malate
+8,Pyruvate Hco3-,Oxa
+9,AcCoA Oxa,Citrate
+10,Citrate,AcCoA Oxa
+11,Suc,SucCoA
+12,SucCoA,Suc
+13,Oxa,PEP
+14,2PG,PEP
+15,PEP,2PG
+16,Lactate,Pyruvate
+17,Pyruvate,Lactate
+18,Isocitrate,2-Oxo
+19,2-Oxo,Isocitrate
+20,Acetaldehyde,Acetate
+21,Acetate,Acetaldehyde
+22,Ethanol,Acetaldehyde
+23,Acetaldehyde,Ethanol
+24,G1P,a-G6P
+25,a-G6P,G1P
+26,G3P,GlyP
+27,GlyP,G3P
+28,R5P,PRPP
+29,PRPP,R5P
+30,Ribose,R5P
+31,R5P,Ribose
+32,R5P,Ru5P
+33,Ru5P,R5P
+34,R1P,R5P
+35,R5P,R1P
+36,G3P,G1_3P
+37,G1_3P,G3P
+38,DR5P,G3P Acetaldehyde
+39,G3P Acetaldehyde,DR5P
+40,F1_6P,GlyP G3P
+41,GlyP G3P,F1_6P
+42,Malate,Fum
+43,Fum,Malate
+44,Citrate,CisAco
+45,CisAco,Citrate
+46,3PG,G1_3P
+47,G1_3P,3PG
+48,2_3PG,3PG
+49,3PG,2_3PG
+50,2PG,3PG
+51,3PG,2PG
+52,G1_5L,Gluconic_acid
+53,6PG,Ru5P
+54,Ru5P,X5P
+55,X5P,Ru5P
+56,b-Glu,b-G6P
+57,a-Glu,b-Glu
+58,b-Glu,a-Glu
+59,S7P G3P,R5P X5P
+60,R5P X5P,S7P G3P
+61,G1_3P,2_3PG
+62,2_3PG,G1_3P
+63,Gluconic_acid,6PG
+64,a-Glu,a-G6P
+65,a-G6P,a-Glu
+66,S7P G3P,E4P F6P
+67,E4P F6P,S7P G3P
+68,F6P G3P,E4P X5P
+69,E4P X5P,F6P G3P
+70,Isocitrate,OxaloSuc
+71,OxaloSuc,Isocitrate
+72,CisAco,Isocitrate
+73,Isocitrate,CisAco
+74,G1_5L6P,6PG
+75,Suc,Fum
+76,Fum,Suc
+77,b-G6P,G1_5L6P
+78,a-G6P,b-G6P
+79,b-G6P,a-G6P
+80,a-G6P,F6P
+81,F6P,a-G6P
+82,DR1P,DR5P
+83,DR5P,DR1P
+84,Deoxyribose,DR5P
+85,DR5P,Deoxyribose
+86,b-G6P,F6P
+87,F6P,b-G6P
+88,F6P,F1_6P
+89,F1_6P,F6P
+90,2-Oxo,SucCoA
+91,Glycerate,2PG
+92,b-G6P,b-Glu
+93,2_3PG,2PG
+in_G1_5L,out,G1_5L
+in_Glycerate,out,Glycerate
+in_HCO3-,out,Hco3-
+in_DR5P,out,DR5P
+in_Glu,out,a-Glu
+out_Pyruvate,Pyruvate,out
+out_Diphosphate,Diphosphate,out
+out_AcCoA,AcCoA,out
+out_G3P,G3P,out
