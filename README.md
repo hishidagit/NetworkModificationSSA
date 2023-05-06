@@ -3,8 +3,8 @@ This repository contains codes for numerical simulation in the paper (Patterns o
 All codes have been proven to work with python3.8.
 
 You need to run the following 
->  cd path-to-repository
->  pip install -e . 
+\>  cd path-to-repository
+\>  pip install -e . 
 
 to install the package created for this paper.
 
